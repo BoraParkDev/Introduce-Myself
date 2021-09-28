@@ -405,7 +405,6 @@ li a:hover:after {
     width: 100%;
     height: 100%;
     position: relative;
-/*    transform: rotateY(0deg) translateZ(30px);*/
 }
 
 .card-box .after {
@@ -415,21 +414,10 @@ li a:hover:after {
     position: absolute;
     top: 0;
     left: 0;
-/*
-    text-indent: -999px;
-    transform: rotateY(-90deg) translateZ(50px);
-*/
 }
-/*.before:hover {
-    text-indent: -999px;
-}
-.after:hover {
-    text-indent: 0;
-}*/
 
 .card-wrap .card-box img {
     display: block;
-    transform: scale(0.25);
     position: absolute;
 }
 
@@ -444,7 +432,6 @@ li a:hover:after {
 }
 
 .card-wrap .card-box:nth-child(3) img {
-    transform: scale(0.35);
     top: -13%;
     left: 26%;
 }
