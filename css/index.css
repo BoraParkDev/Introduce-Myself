@@ -287,6 +287,7 @@ li a:hover:after {
     height: 100%;
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
 }
 .item-box:nth-child(1) .item img {
     animation: rotItem 1s ease-in-out infinite alternate;
