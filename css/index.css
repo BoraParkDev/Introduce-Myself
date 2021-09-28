@@ -276,7 +276,6 @@ li a:hover:after {
 }
 .item {
     display: block;
-    width: 100%;
     height: 100%;
     position: relative;
     /* outline: 3px solid red; */
@@ -419,6 +418,8 @@ li a:hover:after {
 
 .card-wrap .card-box img {
     display: block;
+    height: 100%;
+    transform: scale(0.5);
     position: absolute;
 }
 
