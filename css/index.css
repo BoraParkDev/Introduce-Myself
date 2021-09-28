@@ -416,43 +416,13 @@ li a:hover:after {
     left: 0;
 }
 
-.card-wrap .card-box img {
+.card-wrap .card-box a img {
     display: block;
-    height: 100%;
-    transform: scale(0.5);
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-.card-wrap .card-box:nth-child(1) img {
-    top: 8%;
-    left: 21%;
-}
-
-.card-wrap .card-box:nth-child(2) img {
-    top: 0;
-    left: 12%;
-}
-
-.card-wrap .card-box:nth-child(3) img {
-    top: -13%;
-    left: 26%;
-}
-
-.card-wrap .card-box:nth-child(4) img {
-    top: 8%;
-    left: 21%;
-}
-
-.card-wrap .card-box:nth-child(5) img {
-    top: 8%;
-    left: -14%;
-}
-
-.card-wrap .card-box:nth-child(6) img {
-    top: 7%;
-    left: 21%;
-}
-
 .card-box:nth-child(1) .after {
     background: url(../img/project01.gif) no-repeat center top/cover;
 }
