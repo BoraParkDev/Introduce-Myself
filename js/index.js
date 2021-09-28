@@ -174,9 +174,11 @@ function pageAction() {
 
     } else if(pno ===4){       
         $('.card-box').hover(function(){
-            $(this).find('a:last').show(100);
+            $(this).find('.before').stop().hide();
+            $(this).find('.after').stop().show();
         },function(){
-            $(this).find('a:last').hide();
+            $(this).find('.after').stop().hide();
+            $(this).find('.before').stop().show();
         });
 
     } else if(pno ===5){
