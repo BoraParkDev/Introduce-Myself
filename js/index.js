@@ -174,7 +174,7 @@ function pageAction() {
 
     } else if(pno ===4){       
         $('.card-box').hover(function(){
-            $(this).find('a:last').show();
+            $(this).find('a:last').show(100);
         },function(){
             $(this).find('a:last').hide();
         });
