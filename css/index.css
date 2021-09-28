@@ -282,8 +282,6 @@ li a:hover:after {
 }
 .item img {
     display: block;
-    widht: 100%;
-    height: 100%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
