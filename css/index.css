@@ -419,6 +419,8 @@ li a:hover:after {
 
 .card-wrap .card-box img {
     display: block;
+    width: 100%;
+    height: 100%;
     position: absolute;
 }
 
@@ -484,7 +486,6 @@ li a:hover:after {
     line-height: 1.5;
     padding: 10px;
     position: absolute;
-    ;
     bottom: -10px;
 }
 
@@ -520,34 +521,27 @@ li a:hover:after {
     float: left;
 }
 .percentage {
-    /* display: none; */
     height: 23px;
     position: absolute;
     left: 130px;
 }
 .bar-box:nth-child(1) .percentage {
     background-color: #16ff5c;
-    /* width: 640px; */
 }
 .bar-box:nth-child(2) .percentage {
     background-color: #ff16c5;
-    /* width: 560px; */
 }
 .bar-box:nth-child(3) .percentage {
     background-color: #161aff;
-    /* width: 240px; */
 }
 .bar-box:nth-child(4) .percentage {
     background-color: #ff7316;
-    /* width: 320px; */
 }
 .bar-box:nth-child(5) .percentage {
     background-color: #dcff16;
-    /* width: 160px; */
 }
 .bar-box:nth-child(6) .percentage {
     background-color: #b516ff;
-    /* width: 120px; */
 }
 .bar-box p {
     float: left;
